@@ -2,7 +2,9 @@
 
 export function combineStrings(strings) {
   let result = "";
-  strings.forEach((string) => {});
+  strings.forEach((string) => {
+    string + result;
+  });
 
   return result;
 }

@@ -1,8 +1,15 @@
 body {
   margin: 0;
 }
+ body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
 
-.container {
-  height: 100vh;
-  background-color: #d6f4ff;
-}
+  .container {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;

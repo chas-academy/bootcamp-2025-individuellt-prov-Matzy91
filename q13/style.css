@@ -5,7 +5,9 @@
 }
 
 .container {
+  position: inherit;
   min-height: 100vh;
+  width: auto;
   padding: 2rem;
   display: flex;
   background-color: #fff5ec;
@@ -13,5 +15,14 @@
 
 .box {
   padding: 0.5rem;
+  height: 100px;
+  width: 100vh;
   background-color: #ffd5c2;
+  margin:5px;
 }
+
+.other-box{
+  width: 200%;
+}
+
+
