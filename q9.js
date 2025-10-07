@@ -18,3 +18,38 @@ export function myCalculator(operator, num1, num2) {
       return "Error operator not found!";
   }
 }
+
+function myAddFunction(){
+  var num1 = 0; 
+  var num2 = 0; 
+
+  const result = num1 + num2;
+
+  return result;
+}
+
+function mySubtractFunction(){
+  var num1 = 0;
+  var num2 = 0;
+
+  const result = num1 - num2;
+  return result
+}
+
+function myMultiplyFunction(){
+   var num1 = 0;
+  var num2 = 0;
+
+  const result = num1 * num2;
+  return result
+}
+
+function myDivisionFunction(){
+  var num1 = 0;
+  var num2 = 0;
+
+  const result = num1 / num2;
+  return result
+}
+
+myCalculator();
